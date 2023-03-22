@@ -5,3 +5,7 @@ clean:
 build:
 	javac *.java
 
+all:
+	make clean
+	make build
+
